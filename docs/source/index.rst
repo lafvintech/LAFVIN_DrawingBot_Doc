@@ -7,4 +7,3 @@ LAFVIN DrawingBot Doc
    about_this_kit
    component_list
    Tutorial/tutorial
-

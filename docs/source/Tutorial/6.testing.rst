@@ -1,4 +1,4 @@
-Testing and Verification
+6.Testing and Verification
 ===========================
 
 This section will guide you through testing your device to ensure it's working properly.

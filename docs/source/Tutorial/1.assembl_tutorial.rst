@@ -1,4 +1,4 @@
-Assembly Tutorial
+1.Assembly Tutorial
 ====================
 
 This section will guide you through the hardware assembly process.

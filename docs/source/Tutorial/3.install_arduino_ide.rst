@@ -1,4 +1,4 @@
-Install Arduino IDE
+3.Install Arduino IDE
 =======================
 
 This section will guide you through the installation of the Arduino IDE development environment.

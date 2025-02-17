@@ -1,4 +1,4 @@
-Upload the Main Program
+5.Upload the Main Program
 ============================
 
 This section will guide you on how to upload the code to your device.
