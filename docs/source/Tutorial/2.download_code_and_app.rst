@@ -1,0 +1,32 @@
+Download Code and APP 
+========================
+
+本节将指导您下载必要的代码和应用程序。
+
+**Step 1 下载代码**
+--------------------
+你可以访问下面的链接下载套件的程序代码
+
+* :download:`Main Code <https://www.dropbox.com/scl/fo/qy1pb2digre7kc61toi0o/AA42Ij0n_alPvPB30meBeHM?rlkey=rovnde819ihtsy0ru4c0zmch1&e=1&st=r5evhc7n&dl=1>`
+
+**Step 2 下载配套应用程序 **
+---------------------------
+
+你可以点击下面的链接或扫描下面的二维码下载对应的手机应用程序
+
+.. figure:: img/Android_app.png
+   :align: left
+   :name: android-app
+
+   Android App
+
+.. figure:: img/IOS_app.png
+   :align: left
+   :name: ios-app
+
+   iOS App
+
+.. image:: ./img/6/IOS_ware.png
+
+* :download:`Android <https://github.com/lafvintech/RaspberryPICar/releases/download/v1.0.0/RaspPICar.apk>`
+* :download:`Windows <https://www.dropbox.com/scl/fo/o1rbv33e6cm72bizreh8v/ALHQdUU-NBrsDn_AbMX1VxI?rlkey=0fyzzuwurngelni7mpqjmjrqh&st=ghp7r003&dl=1>`
