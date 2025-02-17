@@ -30,3 +30,9 @@ Download Code and APP
 
 * :download:`Android <https://github.com/lafvintech/RaspberryPICar/releases/download/v1.0.0/RaspPICar.apk>`
 * :download:`Windows <https://www.dropbox.com/scl/fo/o1rbv33e6cm72bizreh8v/ALHQdUU-NBrsDn_AbMX1VxI?rlkey=0fyzzuwurngelni7mpqjmjrqh&st=ghp7r003&dl=1>`
+
+.. attention:: 
+    
+    To establish a connection with the robot, the app requires Bluetooth and location services permissions. These permissions are essential for the app's core functionality.
+
+安装完打开蓝牙,搜索到机器人,点击连接,然后就可以开始绘制了.
