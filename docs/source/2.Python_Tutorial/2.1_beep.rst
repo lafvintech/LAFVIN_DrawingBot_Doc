@@ -1,0 +1,73 @@
+2.1 Beep
+=========================
+The active buzzer is a typical digital output device that is as easy to use as 
+lighting up an LED. It acts like a digital output device, where you simply turn it ON or OFF.
+
+Component List
+^^^^^^^^^^^^^^^
+- Raspberry Pi Pico W x1
+- 830 Tie-Points Breadboard x1
+- Transistor S8050 x1
+- Resistor 1KΩ x1
+- Active Buzzer x1
+- Jumper Wire Several
+
+Component knowledge
+^^^^^^^^^^^^^^^^^^^^
+:ref:`transistor <cpn_transistor>`
+"""""""""""""""""""""""""""""""""""
+
+:ref:`Buzzer <cpn_buzzer>`
+"""""""""""""""""""""""""""
+
+Schematic
+^^^^^^^^^^
+.. image:: img/2.sch/2.2.png
+
+When GP15 outputs a high signal, the 1K current-limiting resistor protects the transistor. 
+The S8050 (NPN transistor) then conducts, allowing the buzzer to sound. The S8050 transistor 
+amplifies the current, making the buzzer louder. While you can connect the buzzer directly to 
+GP15, the sound will be quieter without the transistor.
+
+Connect
+^^^^^^^^
+Two types of buzzers are included in the kit. We need to use active buzzer. Turn 
+them around, the sealed back (not the exposed PCB) is the one we want.
+
+The buzzer needs to use a transistor when working, here we use S8050 (NPN Transistor).
+
+.. image:: img/3.connect/2.1.png
+
+Code
+^^^^^^^
+.. note::
+
+    * Open the ``2.1_beep.py`` file under the path of ``Ultimate-Starter-Kit-for-Pico\Python\1.Project`` or copy this code into Thonny, then click "Run Current Script" or simply press F5 to run it.
+
+    * Don't forget to click on the "MicroPython (Raspberry Pi Pico)" interpreter in the bottom right corner. 
+
+.. image:: img/4.software/2.1.png
+
+Click “Run current script”, you will hear a beep every second.
+
+
+The following is the program code:
+
+.. code-block:: python
+
+    import machine
+    import utime
+
+    buzzer = machine.Pin(15, machine.Pin.OUT)
+    while True:
+        for i in range(4):
+            buzzer.value(1)
+            utime.sleep(0.3)
+            buzzer.value(0)
+            utime.sleep(0.3)
+        utime.sleep(1)
+
+Phenomenon
+^^^^^^^^^^^
+.. video:: img/5.phenomenon/2.1.mp4
+    :width: 100%
