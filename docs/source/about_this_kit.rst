@@ -1,20 +1,39 @@
 About This Kit
 ===============
 
-LAFVIN Ultimate Starter Kit For Pico
----------------------------------------
+LAFVIN DrawingBot
+-----------------
 
 Introduction
 -------------
-The LAFVIN Ultimate Starter Kit for Pico uses the powerful Raspberry Pi Pico W as its core controller and integrates wireless functionality. This kit provides you with a comprehensive learning and development platform, allowing you to easily master the powerful features of the Raspberry Pi Pico W.
-The kit offers rich learning resources, including multiple project examples written in C, MicroPython, and Piper Make. Each project comes with detailed circuit diagrams and verified code to help you quickly understand and practice.
-We provide online web tutorials that you can access and refer to anytime, anywhere. Additionally, our free technical support team is always available to answer your questions, ensuring a smooth learning and development process.
+This intelligent drawing robot kit features the Arduino Nano as its core controller, paired with an expansion board and an HC-06 Bluetooth module to support wireless control. Through three SG-90 servos, it precisely controls the movement of the robotic arm, enabling smooth drawing functions. Users can remotely control the robot's drawing actions, adjust the pen's position and posture, and experience the joy of intelligent drawing via multi-platform clients (supporting iOS and Android).
 
 Features
 ----------
-1. Controller: Raspberry Pi Pico W
-2. Programming Languages: Supports both MicroPython C++ and Piper make, catering to different programming preferences
-3. Wireless Functionality: Supports WiFi and Bluetooth connections, facilitating remote control and data transmission
-4. Rich Project Examples: Includes multiple project examples in C MicroPython and Piper make, comprehensively showcasing the application potential of Raspberry Pi Pico
-5. Online Tutorials: Web-based tutorials accessible anytime, convenient for learning and reference
-6. Technical Support: Provides free technical support to answer your questions and assist in problem-solving
+* Controller: Arduino Nano, stable, efficient, and easy to program
+* Wireless Communication: HC-06 Bluetooth module, supporting multi-platform remote control
+* Actuators: 3 SG-90 servos, providing precise control of the robotic arm's movement
+* Functions:
+    - Remote control of the robotic arm for drawing
+    - Support for custom drawing paths and patterns
+    - Enables continuous drawing or pausing
+* Learning Resources:
+    - Detailed assembly videos to help users get started quickly
+    - Online documentation tutorials, guiding from program uploading to software usage
+
+Application Scenarios
+----------------------
+* Education: Helps students understand robotics, programming, and mechanical principles
+* Creative Design: Offers a novel tool for drawing enthusiasts to experiment with simple pattern drawing or personalized creations
+
+Bill of Materials
+-------------------
+* Arduino Nano x1
+* Nano expansion board x1
+* MG90 Servo x3
+* HC06 Bluetooth Module x1
+* 2x18650 Battery Box x1 (Battery not included)
+* Aluminum Alloy Parts x7
+* Acrylic Plate x2
+* Screw Pack x1
+* Painting Pen x1
