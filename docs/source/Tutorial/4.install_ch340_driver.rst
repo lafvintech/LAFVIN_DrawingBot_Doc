@@ -1,22 +1,22 @@
 Install CH340 Driver
 =======================
 
-本节将指导您安装CH340串口驱动。
+This section will guide you through the installation of the CH340 serial port driver.
 
-**Step 1 Download CH340 Driver**
+**Step 1: Download CH340 Driver**
 --------------------------------
-你可以在这个页面下载CH340芯片的驱动程序
+You can download the CH340 chip driver from the following link:
 
 * :download:`CH340 Driver<https://github.com/lafvintech/LAFVIN_DrawingBot_Doc/releases/download/Driver/CH341SER.EXE>`
 
-**Step 2 Install CH340 Driver**
+**Step 2: Install CH340 Driver**
 --------------------------------
-`点击观看CH340驱动安装视频教程 <https://www.dropbox.com/scl/fo/11594fmsy8suxpf8lmbin/h?rlkey=z84wr5jyki5if4yqevezceqti&st=2lel6n0p&dl=0>`_
+`Watch CH340 Driver Installation Tutorial Video <https://www.dropbox.com/scl/fo/11594fmsy8suxpf8lmbin/h?rlkey=z84wr5jyki5if4yqevezceqti&st=2lel6n0p&dl=0>`_
 
-Requirements
+System Requirements
 ^^^^^^^^^^^^^^^^
 
-* Windows - Win 10 and newer, 64 bits
-* Linux - 64 bits
-* Mac OS Intel - Version 10.14: "Mojave" or newer, 64 bits
-* Mac OS Apple Silicon - Version 11: "Big Sur" or newer, 64 bits
+* Windows - Windows 10 and newer, 64-bit
+* Linux - 64-bit
+* macOS Intel - Version 10.14 "Mojave" or newer, 64-bit
+* macOS Apple Silicon - Version 11 "Big Sur" or newer, 64-bit

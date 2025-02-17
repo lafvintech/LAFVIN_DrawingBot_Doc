@@ -1,7 +1,13 @@
 Assembly Tutorial
-==================
+====================
 
-本节将介绍如何组装硬件设备。
+This section will guide you through the hardware assembly process.
 
-.. note::
-   请按照步骤小心组装，确保各个部件正确连接。
+Below is our assembly video tutorial. Please follow the instructions in the video to assemble your kit:
+
+.. raw:: html
+   
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/4ASke1qjOh4?si=tZyeTam60YYdIGUH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+.. important:: 
+    Before installing the servo motors, you need to connect the Arduino and initialize the servo angles by uploading the code through Arduino IDE. This will be explained in the video.

@@ -1,38 +1,33 @@
 Download Code and APP 
 ========================
 
-本节将指导您下载必要的代码和应用程序。
+This section will guide you through downloading the necessary code and applications.
 
-**Step 1 下载代码**
---------------------
-你可以访问下面的链接下载套件的程序代码
+**Step 1: Download the Code**
+------------------------------
+You can download the kit's program code by visiting the link below:
 
-* :download:`Main Code <https://www.dropbox.com/scl/fo/qy1pb2digre7kc61toi0o/AA42Ij0n_alPvPB30meBeHM?rlkey=rovnde819ihtsy0ru4c0zmch1&e=1&st=r5evhc7n&dl=1>`
+* :download:`Main Code <https://codeload.github.com/lafvintech/LAFVIN_DrawingBot_Doc/zip/refs/heads/main>`
 
-**Step 2 下载配套应用程序 **
----------------------------
+**Step 2: Download the Companion App**
+------------------------------------------
 
-你可以点击下面的链接或扫描下面的二维码下载对应的手机应用程序
+You can download the mobile application by clicking the links below or scanning the QR codes:
 
-.. figure:: img/Android_app.png
+.. figure:: img/LA061_Android_App.png
    :align: left
    :name: android-app
 
    Android App
 
-.. figure:: img/IOS_app.png
+.. figure:: img/LA061_Apple_App.png
    :align: left
    :name: ios-app
 
    iOS App
 
-.. image:: ./img/6/IOS_ware.png
-
 * :download:`Android <https://github.com/lafvintech/RaspberryPICar/releases/download/v1.0.0/RaspPICar.apk>`
-* :download:`Windows <https://www.dropbox.com/scl/fo/o1rbv33e6cm72bizreh8v/ALHQdUU-NBrsDn_AbMX1VxI?rlkey=0fyzzuwurngelni7mpqjmjrqh&st=ghp7r003&dl=1>`
 
-.. attention:: 
-    
-    To establish a connection with the robot, the app requires Bluetooth and location services permissions. These permissions are essential for the app's core functionality.
+* :download:`iOS <https://apps.apple.com/cn/app/drawing-bot/id6739835157>`
 
-安装完打开蓝牙,搜索到机器人,点击连接,然后就可以开始绘制了.
+
