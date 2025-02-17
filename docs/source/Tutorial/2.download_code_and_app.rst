@@ -11,23 +11,20 @@ You can download the kit's program code by visiting the link below:
 
 **Step 2: Download the Companion App**
 ------------------------------------------
-
 You can download the mobile application by clicking the links below or scanning the QR codes:
 
-.. figure:: img/LA061_Android_App.png
+.. figure:: img/LA061_Android.png
    :align: left
    :name: android-app
 
    Android App
 
-.. figure:: img/LA061_Apple_App.png
+.. figure:: img/LA061_IOS.png
    :align: left
    :name: ios-app
 
-   iOS App
+   IOS App
 
 * :download:`Android <https://github.com/lafvintech/RaspberryPICar/releases/download/v1.0.0/RaspPICar.apk>`
 
 * :download:`iOS <https://apps.apple.com/cn/app/drawing-bot/id6739835157>`
-
-
