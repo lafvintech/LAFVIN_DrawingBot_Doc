@@ -1,3 +1,5 @@
+.. _assembly_tutorial:
+
 1.Assembly Tutorial
 ====================
 
