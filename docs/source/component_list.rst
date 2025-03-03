@@ -4,4 +4,4 @@ Component List
 .. toctree::
     :maxdepth: 1
 
-.. image:: list.jpg
+.. image:: ./Tutorial/img/LA061-1.jpg
