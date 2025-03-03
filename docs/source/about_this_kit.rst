@@ -1,78 +1,102 @@
+==============
 About This Kit
-===============
-
-.. image:: ./Tutorial/img/LA061-2.jpg
-   :width: 60%
-   :alt: LAFVIN DrawingBot Assembly
-   :align: center
-
-   Overview of the DrawingBot Components
+==============
 
 LAFVIN DrawingBot
------------------
+================
 
+.. figure:: ./Tutorial/img/LA061-2.jpg
+   :alt: LAFVIN DrawingBot
+   :align: center
+   
+   LAFVIN DrawingBot Kit
+
+------------
 Introduction
-^^^^^^^^^^^^
-This intelligent drawing robot kit combines robotics and digital art creation. Utilizing Arduino Nano as the core controller, the system integrates multi-axis motion control through three precision servos, enabling accurate drawing operations via wireless controls.
+------------
 
-Key Features
-^^^^^^^^^^^^
-* **Control System**
-    - Arduino Nano controller with stable performance
-    - Compatible with Arduino IDE development environment
-* **Wireless Connectivity**
-    - Built-in HC-06 Bluetooth module (4.0 BLE)
-    - Cross-platform support: iOS & Android
-* **Motion System**
-    - 3x SG-90 micro servos (180° rotation)
-    - ±2° positioning accuracy
-* **Core Functions**
-    - Real-time remote control mode
-    - Path recording & playback functionality
-    - Emergency stop function
-* **Learning Resources**
-    - Step-by-step assembly video tutorials
-    - :download:`Get Started Guide </manuals/quickstart.pdf>`
-    - Sample code repository
+This intelligent drawing robot kit features the Arduino Nano as its core controller, paired with an expansion board and an HC-06 Bluetooth module to support wireless control. Through three SG-90 servos, it precisely controls the movement of the robotic arm, enabling smooth drawing functions. 
 
+Users can remotely control the robot's drawing actions, adjust the pen's position and posture, and experience the joy of intelligent drawing via multi-platform clients (supporting iOS and Android).
+
+--------
+Features
+--------
+
+* **Controller**: Arduino Nano, stable, efficient, and easy to program
+* **Wireless Communication**: HC-06 Bluetooth module, supporting multi-platform remote control
+* **Actuators**: 3 SG-90 servos, providing precise control of the robotic arm's movement
+* **Functions**:
+
+  - Remote control of the robotic arm for drawing
+  - Support for custom drawing paths and patterns
+  - Enables continuous drawing or pausing
+
+* **Learning Resources**:
+
+  - Detailed assembly videos to help users get started quickly
+  - Online documentation tutorials, guiding from program uploading to software usage
+
+----------------------
 Application Scenarios
-^^^^^^^^^^^^^^^^^^^^^
-Education & Research
-    Teach fundamentals of:
-    - Robotics kinematics
-    - Embedded programming
-    - Mechatronic system integration
-
-Creative Design
-    Apply for:
-    - Digital artwork creation
-    - Geometric pattern drawing
-    - Personalized postcard design
-
-Bill of Materials
-^^^^^^^^^^^^^^^^^
-.. list-table:: 
-   :header-rows: 1
-   :widths: 35 15 50
-
-   * - Component
-     - Qty
-     - Specifications
-   * - Arduino Nano
-     - 1
-     - ATmega328P, 16MHz
-   * - Servo Motor
-     - 3
-     - SG-90 Micro Servo (4.8-6V DC)
-   * - Bluetooth Module
-     - 1
-     - HC-06 (Class 2, +4dBm)
-   * - Power Supply
-     - 1
-     - 2x18650 Battery Holder (*Batteries not included)
-   * - Mechanical Kit
-     - 1
-     - 6063 Aluminum Alloy Parts
+----------------------
 
 .. note::
-   Full assembly requires standard M3 screws (included). Recommended workspace: flat surface > 40x40cm.
+   The DrawingBot is ideal for both educational purposes and creative applications.
+
+* **Education**: 
+  Helps students understand robotics, programming, and mechanical principles
+
+* **Creative Design**: 
+  Offers a novel tool for drawing enthusiasts to experiment with simple pattern drawing or personalized creations
+
+------------------
+Bill of Materials
+------------------
+
+.. list-table::
+   :header-rows: 1
+   :widths: 70 30
+
+   * - Component
+     - Quantity
+   * - Arduino Nano
+     - 1
+   * - Nano expansion board
+     - 1
+   * - MG90 Servo
+     - 3
+   * - HC06 Bluetooth Module
+     - 1
+   * - 2x18650 Battery Box (Battery not included)
+     - 1
+   * - Aluminum Alloy Parts
+     - 7
+   * - Acrylic Plate
+     - 2
+   * - Screw Pack
+     - 1
+   * - Painting Pen
+     - 1
+
+.. warning::
+   Batteries are not included with this kit. You will need to purchase 18650 batteries separately.
+
+.. _assembly-guide:
+
+---------------
+Assembly Guide
+---------------
+
+For detailed assembly instructions, please refer to our :ref:`assembly-video` or follow the step-by-step guide in the :doc:`/getting_started` section.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+   getting_started
+   software_setup
+   usage_examples
+   troubleshooting
+   faq
+
