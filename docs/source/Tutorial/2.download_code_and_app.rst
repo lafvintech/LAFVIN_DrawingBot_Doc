@@ -25,6 +25,6 @@ You can download the mobile application by clicking the links below or scanning 
 
    IOS App
 
-* :download:`Android <https://github.com/lafvintech/RaspberryPICar/releases/download/v1.0.0/RaspPICar.apk>`
+* :download:`Android <https://github.com/lafvintech/LAFVIN_DrawingBot_Doc/releases/download/v1.0.1/DrawingBot.apk>`
 
 * :download:`iOS <https://apps.apple.com/cn/app/drawing-bot/id6739835157>`
